@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#my first script
+echo "Hello World !!"
+
+#Most Linux distributions encourage a practice 
+#in which each user has a specific directory for the programs he/she personally uses. 
+#This directory is called bin and is a subdirectory of your home directory.
+
+#We can add bin directory in our bash peofile:
+# export PATH=$PATH:bin(name of the directory of scripts)
+
