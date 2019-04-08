@@ -1,10 +1,11 @@
 #!/bin/bash
+title="This is the Title"
 
 cat <<- _EOF_  # '-'it will ignore the leading tabs
 	<html>
 		<head>
 			<title>
-			This is the Title of the page..
+			  $title
 			</title>
 		</head>
 		<body>
